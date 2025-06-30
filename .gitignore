@@ -1,7 +1,8 @@
-./foo/.terragrunt-cache/
-./foo/.terraform/
-./foo/.terraform.lock.hcl
+# Ignore all .terragrunt-cache directories
+**/.terragrunt-cache/
 
-./bar/.terragrunt-cache/
-./bar/.terraform/
-./bar/.terraform.lock.hcl
+# Ignore all .terraform directories
+**/.terraform/
+
+# Ignore all .terraform.lock.hcl files
+**/.terraform.lock.hcl

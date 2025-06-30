@@ -1,8 +1,8 @@
 terraform {
-  source = "./"
+  source = "../shared"
 }
 
 inputs = {
-  content   = "Hello, Terragrunt 1!"
-  file_path = "${get_terragrunt_dir()}/hi.txt"
+  content   = "Hello from foo, Terragrunt!"
+  file_path = "${get_terragrunt_dir()}/foo.txt"
 }

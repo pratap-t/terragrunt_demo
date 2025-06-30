@@ -1,3 +1,7 @@
 ./foo/.terragrunt-cache/
 ./foo/.terraform/
 ./foo/.terraform.lock.hcl
+
+./bar/.terragrunt-cache/
+./bar/.terraform/
+./bar/.terraform.lock.hcl

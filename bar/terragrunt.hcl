@@ -2,7 +2,11 @@ terraform {
   source = "../shared"
 }
 
+dependency "foo" {
+  config_path = "../foo"
+}
+
 inputs = {
-  content   = "Hello from bar, Terragrunt 1!"
+  content   = "Foo content: ${dependency.foo.outputs.content}"
   file_path = "${get_terragrunt_dir()}/bar.txt"
 }

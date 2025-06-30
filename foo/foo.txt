@@ -1,1 +1,1 @@
-Hello from foo, Terragrunt 1!
+Hello from foo, Terragrunt 3!

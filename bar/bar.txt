@@ -1,1 +1,1 @@
-Hello from bar, Terragrunt 1!
+Foo content: Hello from foo, Terragrunt 3!
